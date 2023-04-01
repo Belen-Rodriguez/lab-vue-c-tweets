@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <Tweet v-for="tweet in tweets" class="tweet"
+    <Tweet v-for="tweet in tweets"
       :eachTweet="tweet" 
       />
   </div>
@@ -177,9 +177,6 @@
     display: flex;
     justify-content: space-between;
     color: #536471;
-  }
-  .tweet {
-    margin-top: 20px;
   }
 
 </style>
